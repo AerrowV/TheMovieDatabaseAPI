@@ -7,7 +7,7 @@ import java.net.http.HttpResponse;
 
 public class DataReader {
 
-    public String getDataFromURL(String url) {
+    public String getDataFromClient(String url) {
         try {
             HttpClient client = HttpClient.newHttpClient();
 
